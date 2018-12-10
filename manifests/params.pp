@@ -51,5 +51,7 @@ class newrelic_plugins::params {
 
   $wikipedia_example_ruby_version = '1.0.3'
   $wikipedia_example_ruby_download_baseurl = 'https://github.com/newrelic-platform/newrelic_wikipedia_plugin/archive'
-}
 
+  $elasticsearch_version = '2.3.2'
+  $elasticsearch_download_baseurl = 'https://github.com/s12v/newrelic-elasticsearch/releases/download'
+}
