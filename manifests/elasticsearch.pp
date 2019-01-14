@@ -40,7 +40,7 @@ class newrelic_plugins::elasticsearch (
   include stdlib
 
   # verify java is installed
-  newrelic_plugins::resource::verify_java { 'Elasticsearch Plugin': }
+#  newrelic_plugins::resource::verify_java { 'Elasticsearch Plugin': }
 
   # verify attributes
   validate_absolute_path($install_path)
