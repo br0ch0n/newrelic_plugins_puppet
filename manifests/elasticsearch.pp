@@ -91,8 +91,8 @@ class newrelic_plugins::elasticsearch (
   }
 
   # ordering
-  Newrelic_plugins::Resource::Verify_java['Elasticsearch Plugin']
-  ->
+#  Newrelic_plugins::Resource::Verify_java['Elasticsearch Plugin']
+#  ->
   Newrelic_plugins::Resource::Verify_license_key['Elasticsearch Plugin: Verify New Relic License Key']
   ->
   Newrelic_plugins::Resource::Install_plugin['newrelic_elasticsearch_plugin']
