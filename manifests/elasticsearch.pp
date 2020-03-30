@@ -35,7 +35,7 @@ class newrelic_plugins::elasticsearch (
     $install_path,
     $user,
     $version = $newrelic_plugins::params::elasticsearch_version
-) inherits params {
+) inherits newrelic_plugins::params {
 
   include stdlib
 
